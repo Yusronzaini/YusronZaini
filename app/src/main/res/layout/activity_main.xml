@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/LogoMe"
+            android:scaleType="centerCrop"
+            android:alpha="0.30" android:layout_alignParentStart="true" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp" android:layout_marginStart="0dp"/>
+
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="25dp"
+                android:text="Nama Saya Yusron Zaini"
+                android:background="#797fea"
+                android:textAlignment="center"/>
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="25dp"
+                android:text="NIM Saya adalah 170202107"
+                android:background="#f41a4d"
+                android:textAlignment="center"/>
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="25dp"
+                android:text="Saya Lahir tanggal 13 januari"
+                android:background="#40cfb5"
+                android:textAlignment="center"/>
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="25dp"
+                android:text="Prodi Saya Teknik Informatika"
+                android:background="#e624c2"
+                android:textAlignment="center"/>
+        <TextView
+                android:layout_width="500dp"
+                android:layout_height="25dp"
+                android:text="Saya tinggal di Teros,Labuhan Haji"
+                android:background="#4bed32"
+                android:textAlignment="center"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
